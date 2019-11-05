@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="product.dao.productDao">
+	<resultMap type="product" id="rs1">
+		<id column="id" property="id" javaType="java.lang.Integer" jdbcType="INTEGER" />
+		<result column="productName" property="productName" javaType="java.lang.String" jdbcType="VARCHAR" />
+		<result column="quantity" property="quantity" />
+	</resultMap>
+
+
+
+<!-- if标签运算出来的结果，会被强制加入一个空格符 -->
+<!-- Alt键+?键，可以弹出提示菜单 -->
+
+
+<select id="getAll"  resultMap="rs1">
+	select * from product  
+</select>
+<select id="selectOne"  resultMap="rs1">
+	select * from product where productName=#{productName} 
+</select>
+	
+</mapper>
