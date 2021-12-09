@@ -23,7 +23,7 @@
 		<!-- Spring,SpringMVC框架 -->
 		<version.spring>5.1.5.RELEASE</version.spring>
 		<!-- SpringMvc内置Json格式处理框架 -->
-		<version.jackson>2.9.7</version.jackson>
+		<version.jackson>2.9.10.8</version.jackson>
 		<!-- SpringMvc内置检校-引用的框架 -->
 		<hibernate-validator.version>5.4.2.Final</hibernate-validator.version>
 		<!-- SpringMvc内置第三方Aop实现-引用的框架 -->
