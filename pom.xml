@@ -21,7 +21,7 @@
 		<version.org.slf4j>1.7.26</version.org.slf4j>
 
 		<!-- Spring,SpringMVC框架 -->
-		<version.spring>5.1.5.RELEASE</version.spring>
+		<version.spring>5.3.19</version.spring>
 		<!-- SpringMvc内置Json格式处理框架 -->
 		<version.jackson>2.9.7</version.jackson>
 		<!-- SpringMvc内置检校-引用的框架 -->
